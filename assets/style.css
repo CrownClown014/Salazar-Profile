@@ -1,0 +1,88 @@
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin:0; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+/*coding for hero section*/
+
+.hero {
+    background-image: url(https://wallpapercave.com/wp/atadv0w.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width:100%; 
+    padding: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color:ghostwhite;
+    font-size:40px;
+}
+span {
+    color:crimson;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    color:black;
+    padding:25px;
+    font-size:20px
+}
+nav ul li a{
+    color:black;
+}
+nav ul li a:hover{
+    color:crimson;
+    transition: 0s;
+}
+/*code for body(bulk of the website)*/
+h2{
+    font-size: 40px;
+    font-style:italic;
+
+}
+.aboutme {
+    font-size: 25px;
+    padding: 25px;
+    color:black;
+}
+.aboutme p{
+    background-color:black;
+    color:white;
+    border-radius:10px;
+}
+.work{
+    padding:100px;
+}
+.project1{
+    max-width:50%;
+    max-height:50%;
+    margin-left:25%;
+}
+.project1:hover{
+    transform:scale(1.2);
+}
+a section img{
+    max-width:20%;
+    padding:20px;
+}
+.resume{
+    padding: 100px;
+
+}
+.contact{
+    padding:25px;
+}
